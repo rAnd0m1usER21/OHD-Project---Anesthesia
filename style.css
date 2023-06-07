@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+html {
+  height: 1000px;
+  width: 100%;
+  margin: 0px;
+  background-image:
+    linear-gradient(#ffffff, #a1d3f0, #ffffff);
+  scroll-behavior: smooth;
+  scroll-margin: 20px;
+}
+
+iframe {
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+/*table of contents class*/
+.nav_bar {
+  text-align: center;
+  width: 100%;
+  background-color: #5c92f7;
+  position: absolute;
+  scroll-margin: 0px;
+  scroll-padding-top: 0px;
+}
+
+.nav_bar a {
+  font-family: Righteous;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 32px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav_bar a:hover {
+  background-color: #294c8c;
+}
+
+.nav_bar li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header h1{
+  color: rgba(186, 77, 65, 75%);
+  text-align: center;
+  font-size: 64px;
+  font-family: Carter One;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.left_text {
+  text-align: left !important;
+  display: block;
+}
+
+.right_text {
+  text-align: right !important;
+  display: block;
+}
+
+.center_text {
+  text-align: center !important;
+  display: block;
+}
+
+.title_mark h2 {
+  color: #ba4d41;
+  font-size: 42px !important;
+  font-family: Montserrat Alternates;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  margin-top: 0px !important;
+  padding-top: 64px !important;
+
+  
+}
+
+.define {
+  display: table;
+  font-size: 42px; 
+  margin-top: 0px !important; 
+  color: #a62626 !important; 
+  font-family: Viga !important;
+}
+
+.info_text > .define {
+  padding-right: 8px;
+}
+
+
+.info_text:has(.define) {
+  padding-left: 25px !important;
+}
+
+.info_text:not(:has(.define)) {
+  padding-left: 25px !important;
+}
+
+.info_text p {
+  max-width: 720px;
+  display: inline-block;
+  color: #4d4d4d;
+  font-size: 24px;
+  padding-right: 25px;
+  margin-top: 0px !important;
+  font-family: Tenor Sans;
+}
+
+.intro_page {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.intro_page li {
+  display: block;
+  margin-top: 10px;
+  font-family: Sen;
+  font-size: 24px !important;
+  color: #ffffff;
+}
+
+.def_list {
+  padding-left: 25px;
+}
+
+.def_list li {
+  max-width: 640px;
+  font-family: Sen;
+  font-size: 24px !important;
+  color: #4d4d4d;
+}
+
+.credits {
+  background-color: #e66560;
+  
+}
+
+.credits a {
+  color: #4d4d4d;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: Yatra One;
+  font-size: 24px;
+}
+
+.credits a:hover {
+  color: #ffffff !important;
+}
+
+.credit-title h2 {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 16px;
+  padding-bottom: 0px;
+  font-family: Montserrat Alternates;
+  font-size: 42px;
+}
+
+#morton {
+  padding-top: 64px;
+}
+
+#letheon {
+  padding-top: 100px;
+}
+
+#civil-war {
+  padding-top: 64px;
+  padding-left: 0px;
+}
+
+#poppy {
+  padding-top: 32px;
+  
+}
+
+.left_img {
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.right_img {
+  float: right;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.center_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.caption_text {
+  max-width: 720px;
+  display: inline-block;
+  color: #4d4d4d;
+  font-size: 12px;
+  margin-top: 0px !important;
+  font-family: Tenor Sans;
+}
+
+figure {
+    display: inline-block;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+  text-align: center;
+  max-width: 720px;
+  display: inline-block;
+  color: #4d4d4d;
+  font-size: 12px;
+  margin-top: 0px !important;
+  font-family: Tenor Sans;
+}
